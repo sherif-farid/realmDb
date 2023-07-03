@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <!-- on below line creating a text view for displaying the heading of our application -->
+    <TextView
+        android:id="@+id/idTVHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Realm Database in Android"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- on below line creating edit text for name -->
+    <EditText
+        android:id="@+id/idEdtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Enter Name" />
+
+    <!-- on below line creating edit text for age -->
+    <EditText
+        android:id="@+id/idEdtAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Enter Age" />
+
+    <!-- on below line creating a button for adding data -->
+    <Button
+        android:id="@+id/idBtnAddData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        android:text="Add Data to Database"
+        android:textAllCaps="false" />
+    <TextView
+        android:id="@+id/savedValueTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:text="saved value"/>
+</LinearLayout>
